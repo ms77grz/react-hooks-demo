@@ -1,12 +1,12 @@
 import './App.css';
-import DataFetching from './components/counter/DataFetching';
+import DataFetchingTwo from './components/dataFetching/DataFetchingTwo';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
-      <DataFetching />
+      <DataFetchingTwo />
     </div>
   );
-}
+};
 
 export default App;
