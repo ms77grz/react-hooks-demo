@@ -1,10 +1,10 @@
 import './App.css';
-import DataFetchingTwo from './components/dataFetching/DataFetchingTwo';
+import Counter from './components/counter/Counter';
 
 const App = () => {
   return (
     <div className='App'>
-      <DataFetchingTwo />
+      <Counter />
     </div>
   );
 };
