@@ -1,10 +1,10 @@
 import './App.css';
-import CounterComponent from './components/CounterComponent';
+import UserForm from './components/UserForm';
 
 const App = () => {
   return (
     <div className='App'>
-      <CounterComponent />
+      <UserForm />
     </div>
   );
 };
