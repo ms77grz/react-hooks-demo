@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './components/counter/Counter';
+import CounterComponent from './components/CounterComponent';
 
 const App = () => {
   return (
     <div className='App'>
-      <Counter />
+      <CounterComponent />
     </div>
   );
 };
